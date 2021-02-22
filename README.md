@@ -14,6 +14,8 @@ REACT_SMTP_EMAIL=[your gmail accoutn email]
 REACT_EMAIL_PASSWORD=[password to your email account]
 ```
 
+Last thing to do is change target email in APP.js axios request.
+
 If you have done everything from above you can run and test the app using command in your shell.
 ```
 netlify dev
