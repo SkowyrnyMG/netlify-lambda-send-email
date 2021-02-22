@@ -8,7 +8,7 @@ function App() {
   }
 
   const handleSendClick = async () => {
-    const res = await axios.post('/api/sendMailNet', {dest: 'mateusz.gruzla@globgranit.pl'});
+    const res = await axios.post('/api/sendMailNet', {dest: 'YOURTESTEMAIL@TEST.COM'});
     console.log(res);
   }
   return (
